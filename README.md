@@ -22,7 +22,7 @@ Creemos una pagina divertida.
 * Use simple things, don't add some huge library!
 
 # Ideas 🧠
-* Add more wicked and silly stuff (animations, colors, easter eggs)
+* Add more weird and silly stuff (animations, colors, easter eggs)
 * Add layout to index.html
 * Style the index.html
 * Update Readme.md
