@@ -1,17 +1,18 @@
-
 body {
-  background-color: #2B1F50;
-  line-height: 1.2em
+  background-color: #2b1f50;
+  line-height: 1.2em;
 }
-
+#NavbarWithImage {
+  background-color: #152347;
+}
 .text-spin {
   /* border-radius: 50%; */
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 .text-spin:hover {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .header_icon {
