@@ -7,7 +7,7 @@ Let's try to create a crazy community-driven webpage (something similar to [port
 Feel free to add whatever you want (eg. easter eggs, wierd stuff, silly animations, etc.) and lets try to see what can we create from it. 👨🏻‍🎨 
 
 If you have any questions or requests drop me a message! 📧
-
+Creemos una pagina divertida.
 # Rules for contributing 👨🏻‍💻
 
 ### ✅
