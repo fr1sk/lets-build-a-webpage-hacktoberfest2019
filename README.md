@@ -11,6 +11,7 @@ If you have any questions or requests drop me a message! 📧
 # Rules for contributing 👨🏻‍💻
 
 ### ✅
+* Try to add something funny (get inspiration from portfolio site above), don't just try to add something just for PR, open your mind 🙏🏻
 * Keep pull requests small to minimize merge conflicts.
 * Make sure there is no merge conflict
 * Add fun and wicked things. This is not serious project, add easter eggs and ａｅｓｔｈｅｔｉｃ stuff. 🐮
