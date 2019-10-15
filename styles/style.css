@@ -8,6 +8,7 @@ body {
   /* border-radius: 50%; */
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
+  color: white;
 }
 .text-spin:hover {
   -webkit-transform: rotate(360deg);
@@ -18,4 +19,23 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.shake-that-booty {
+  color: white;
+  
+  @keyframes shake {
+    33% {
+      @include transform(rotateZ(10deg));
+    }
+    67% {
+      @include transform(rotateZ(-10deg));
+    }
+    100% {
+      @include transform(rotateZ(10deg));
+    }
+  }
+
+  animation-duration: 0.3s;
+  animation-name: shake;
 }
