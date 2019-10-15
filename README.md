@@ -18,7 +18,7 @@ If you have any questions or requests drop me a message! 📧
 
 # Ideas 🧠
 * Add more wicked and silly stuff (animations, colors, easter eggs)
-* Add layout to index.js
+* Add layout to index.html
 * Style the index.html
 * Update Readme.md
 * Check issues for more things to do
