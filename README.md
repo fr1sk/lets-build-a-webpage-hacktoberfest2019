@@ -1,6 +1,7 @@
 # lets-build-a-webpage-hacktoberfest2019
 
-Lets try to create the ugliest webpage ever. Hacktoberfest army, are you ready? 🚀
+Lets try to create a community-driven webpage ever. Hacktoberfest army, are you ready? 🚀
+Feel free to add whatever you want (eg. easter eggs, wierd stuff, silly animations, etc.) and lets try to see what can we create from it. 👨🏻‍🎨 
 
 If you have any questions or requests drop me a message! 📧
 
