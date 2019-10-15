@@ -1,5 +1,7 @@
 # lets-build-a-webpage-hacktoberfest2019 [LIVE WEBSITE](https://fr1sk.github.io/lets-build-a-webpage-hacktoberfest2019/)
 
+Community-driven webpage! Inspired by [🎃Hacktoberfest](https://hacktoberfest.digitalocean.com/)!
+
 Let's try to create a crazy community-driven webpage. Hacktoberfest army, are you ready? 🚀
 Feel free to add whatever you want (eg. easter eggs, wierd stuff, silly animations, etc.) and lets try to see what can we create from it. 👨🏻‍🎨 
 
