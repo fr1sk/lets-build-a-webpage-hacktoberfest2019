@@ -1,8 +1,5 @@
 
-body {
-  background-color: #2B1F50;
-  line-height: 1.2em
-}
+
 
 .text-spin {
   /* border-radius: 50%; */
@@ -14,8 +11,32 @@ body {
           transform: rotate(360deg);
 }
 
-.header_icon {
+/*.header_icon {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+*/
+.header_icon img{
+  transition: 0.5s;
+}
+
+.header_icon img:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.box{
+  background:#84419D;
+  transition: 0.3s;
+  width: 200px;
+  height: 200px;
+}
+
+.box:hover{
+  background-color: #6BCAE2;
+  color:black;
+  color:#31275B;
+  transition: 0.3s;
+  transform: scale(1.1);
 }
