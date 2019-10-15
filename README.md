@@ -14,7 +14,7 @@ Creemos una pagina divertida.
 * Try to add something funny (get inspiration from portfolio site above), don't just try to add something just for PR, open your mind 🙏🏻
 * Keep pull requests small to minimize merge conflicts.
 * Make sure there is no merge conflict
-* Add fun and wicked things. This is not serious project, add easter eggs and ａｅｓｔｈｅｔｉｃ stuff. 🐮
+* Add fun and weird things. This is not serious project, add easter eggs and ａｅｓｔｈｅｔｉｃ stuff. 🐮
 
 ### ❌
 * DONT SPAM! If you are able to fix small error or improve some small thing, thats ok, but don't try to add something just to add (eg. just a console.log)
