@@ -1,6 +1,6 @@
 
 body {
-  background-color: darkorchid;
+  background-color: #2B1F50;
   line-height: 1.2em
 }
 
@@ -14,3 +14,8 @@ body {
           transform: rotate(360deg);
 }
 
+.header_icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
