@@ -1,21 +1,23 @@
 body {
 
-  line-height: 1.2em; 
+  line-height: 1.2em;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
 }
 
 @keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .header_icon {
@@ -27,42 +29,44 @@ body {
 .text-spin {
   /* border-radius: 50%; */
   -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
+
 .text-spin:hover {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 #silly {
   color: white;
 }
+
 /*.header_icon {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 */
-.header_icon img{
+.header_icon img {
   transition: 0.5s;
 }
 
-.header_icon img:hover{
+.header_icon img:hover {
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.box{
-  background:#84419D;
+.box {
+  background: #84419D;
   transition: 0.3s;
   width: 200px;
   height: 200px;
 }
 
-.box:hover{
+.box:hover {
   background-color: #6BCAE2;
-  color:black;
-  color:#31275B;
+  color: black;
+  color: #31275B;
   transition: 0.3s;
   transform: scale(1.1);
 }
