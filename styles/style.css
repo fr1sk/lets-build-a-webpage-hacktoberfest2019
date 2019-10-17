@@ -1,6 +1,6 @@
 body {
 
-  line-height: 1.2em; 
+  line-height: 1.2em;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
@@ -50,6 +50,26 @@ body {
 .header_icon img:hover{
   transition: 0.5s;
   transform: scale(1.1);
+}
+
+hr.drop_shadow {
+
+    height: 10px;
+
+    border: 1;
+
+    box-shadow: inset 0 9px 9px -3px rgba(141,179,134,0.8);
+
+      -webkit-border-radius: 5px;
+
+      -moz-border-radius: 5px;
+
+      -ms-border-radius: 5px;
+
+      -o-border-radius: 5px;
+
+      border-radius: 5px;
+
 }
 
 .box{
