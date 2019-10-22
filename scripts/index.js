@@ -13,14 +13,14 @@ const checkKey = (e) => {
 }
 
   /*
-      _.-""""`-._ 
+      _.-""""`-._
     ,' _-""""`-_ `.
     / ,'.-'"""`-.`. \
   | / / ,'"""`. \ \ |
   | | | | ,'"`. | | | |
   | | | | |   | | | | |
 
-  RAINBOW EASTER LOG 
+  RAINBOW EASTER LOG
   */
 
  const rainbow = () => {
@@ -31,3 +31,6 @@ const checkKey = (e) => {
   }, 15);
 };
 
+const removeAll = () => {
+  $('body').empty();
+}
