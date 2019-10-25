@@ -57,8 +57,9 @@ body {
   transition: 0.3s;
   width: 200px;
   height: 200px;
+  color: #fff;
+  margin: 10px;
 }
-
 .box:hover{
   background-color: #6BCAE2;
   color:black;
@@ -66,3 +67,42 @@ body {
   transition: 0.3s;
   transform: scale(1.1);
 }
+.run{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst{
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst{
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+
+.row{
+	display: block;
+	text-decoration: none;
+}
+
+.alien{
+	text-align: left;
+}
+.huevospascua{
+	text-align: center;
+}
+
