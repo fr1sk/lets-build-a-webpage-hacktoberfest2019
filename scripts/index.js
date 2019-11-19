@@ -13,14 +13,14 @@ const checkKey = (e) => {
 }
 
   /*
-      _.-""""`-._ 
+      _.-""""`-._
     ,' _-""""`-_ `.
     / ,'.-'"""`-.`. \
   | / / ,'"""`. \ \ |
   | | | | ,'"`. | | | |
   | | | | |   | | | | |
 
-  RAINBOW EASTER LOG 
+  RAINBOW EASTER LOG
   */
 
  const rainbow = () => {
@@ -31,3 +31,28 @@ const checkKey = (e) => {
   }, 15);
 };
 
+var app = new Vue({
+  el: '#app',
+  data: {
+    counter: 0,
+    buttonOffSets: {
+      top: null,
+      left: null
+    }
+  },
+  methods: {
+    incrementCounter: function() {
+      this.counter+=1;
+    },
+    zero: function(){
+      this.counter=0;
+    },
+    moveButton: function(e) {
+      this.buttonOffSets = {
+        top: `${Math.random() * window.innerHeight}px`,
+        left: `${Math.random() * window.innerWidth}px`
+      }
+    }
+  }
+
+})

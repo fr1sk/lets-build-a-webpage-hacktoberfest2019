@@ -1,6 +1,6 @@
 body {
 
-  line-height: 1.2em; 
+  line-height: 1.2em;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
@@ -65,4 +65,9 @@ body {
   color:#31275B;
   transition: 0.3s;
   transform: scale(1.1);
+}
+
+.is-crazy {
+  position: absolute;
+  transition: 0.3s ease all;
 }
