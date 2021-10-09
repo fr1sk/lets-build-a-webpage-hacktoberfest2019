@@ -66,3 +66,7 @@ body {
   transition: 0.3s;
   transform: scale(1.1);
 }
+
+.meme{
+  font-weight: 100;
+}
